@@ -72,8 +72,22 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
-"to conf plugin Gundo
+"to conf plugin-Gundo
 nnoremap <F5> :GundoToggle<CR>
 let g:gundo_right = 1
 let g:gundo_width = 70
 let g:gundo_preview_height = 35
+
+"to conf plugin-pyflaks
+let g:pyflakes_use_quickfix = 0
+
+"to conf plugin-syntastic
+let g:syntastic_python_python_exec = 'C:\\Python27'
+let g:syntastic_enable_perl_checker = 1
+
+"to conf plugin-NERD_Tree
+map <C-l> :tabn<cr>             "下一个tab
+map <C-h> :tabp<cr>             "上一个tab
+map <C-n> :tabnew<cr>           "新tab
+map <C-k> :bn<cr>               "下一个文件
+map <C-j> :bp<cr>               "上一个文件
