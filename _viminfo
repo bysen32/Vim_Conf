@@ -8,7 +8,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:TaskList
+:q
+:td
+:<leader>td
+:w
 :wq
+:t
+:tasklist
+:tasklit
+:<leader>t
+:<Leader>t
+:a
+:l
+:k
+:h
+:cw
 
 # Search String History (newest to oldest):
 
@@ -20,19 +35,70 @@
 
 # 寄存器:
 ""1	LINE	0
-	### Bysen32 2014/11/28
+	
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	#TODE
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	#FIXME!
+"9	LINE	0
+	filetype plugin indent on
+"-	CHAR	0
+	s
 
 # 文件标记:
-'0  1  0  ~\.ssh\id_rsa.pub
-'1  7  19  D:\Program\Vim-Conf\README.md
-'2  1  0  D:\Program\Vim-Conf\README.md
-'3  11  12  ~\Desktop\Spoon-Knife\README.md
-'4  12  4  ~\Desktop\Spoon-Knife\README.md
-'5  4  0  ~\Desktop\Spoon-Knife\README.md
-'6  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
-'7  23  0  ~\Vim\_vimrc
+'0  2  0  ~\Desktop\note.py
+'1  19  0  ~\Desktop\note.py
+'2  76  30  ~\Vim\_vimrc
+'3  47  9  D:\Program\Vim-Conf\_vimrc
+'4  75  0  ~\Vim\_vimrc
+'5  74  0  ~\Vim\_vimrc
+'6  52  69  ~\Vim\vim74\plugin\tasklist.vim
+'7  77  0  ~\Vim\_vimrc
+'8  77  28  ~\Vim\_vimrc
+'9  15  5  ~\Desktop\note.py
 
 # 跳转列表 (从新到旧):
+-'  2  0  ~\Desktop\note.py
+-'  1  0  ~\Desktop\note.py
+-'  19  4  ~\Desktop\note.py
+-'  20  6  ~\Desktop\note.py
+-'  16  0  ~\Desktop\note.py
+-'  76  30  ~\Vim\_vimrc
+-'  1  0  ~\Vim\_vimrc
+-'  55  0  ~\Vim\_vimrc
+-'  75  0  ~\Vim\_vimrc
+-'  47  9  D:\Program\Vim-Conf\_vimrc
+-'  64  0  D:\Program\Vim-Conf\_vimrc
+-'  74  0  ~\Vim\_vimrc
+-'  77  0  ~\Vim\_vimrc
+-'  52  69  ~\Vim\vim74\plugin\tasklist.vim
+-'  1  0  ~\Vim\vim74\plugin\tasklist.vim
+-'  73  4  ~\Vim\_vimrc
+-'  15  5  ~\Desktop\note.py
+-'  21  0  ~\Desktop\note.py
+-'  11  0  ~\Desktop\note.txt
+-'  1  0  ~\Desktop\note.txt
+-'  66  14  ~\Desktop\Test.cpp
+-'  24  0  ~\Desktop\Test.cpp
+-'  23  0  ~\Desktop\Test.cpp
+-'  45  1  ~\Desktop\Test.cpp
+-'  93  0  ~\Desktop\Test.cpp
+-'  68  15  ~\Vim\_vimrc
+-'  66  8  ~\Vim\_vimrc
+-'  1  0  ~\Desktop\Test.cpp
+-'  69  7  ~\Vim\_vimrc
+-'  23  0  ~\Vim\_vimrc
+-'  1  0  D:\Program\Vim-Conf\_vimrc
 -'  1  0  ~\.ssh\id_rsa.pub
 -'  7  19  D:\Program\Vim-Conf\README.md
 -'  1  0  D:\Program\Vim-Conf\README.md
@@ -42,97 +108,137 @@
 -'  1  0  ~\Desktop\Spoon-Knife\README.md
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
 -'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 -'  1  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
--'  23  0  ~\Vim\_vimrc
+-'  1  0  ~\.ssh\id_rsa.pub
+-'  7  19  D:\Program\Vim-Conf\README.md
+-'  1  0  D:\Program\Vim-Conf\README.md
+-'  11  12  ~\Desktop\Spoon-Knife\README.md
+-'  12  4  ~\Desktop\Spoon-Knife\README.md
+-'  76  30  ~\Vim\_vimrc
 -'  1  0  ~\Vim\_vimrc
--'  23  0  ~\Vim\_vimrc
+-'  55  0  ~\Vim\_vimrc
+-'  75  0  ~\Vim\_vimrc
+-'  47  9  D:\Program\Vim-Conf\_vimrc
+-'  64  0  D:\Program\Vim-Conf\_vimrc
+-'  74  0  ~\Vim\_vimrc
+-'  77  0  ~\Vim\_vimrc
+-'  52  69  ~\Vim\vim74\plugin\tasklist.vim
+-'  1  0  ~\Vim\vim74\plugin\tasklist.vim
+-'  73  4  ~\Vim\_vimrc
+-'  11  0  ~\Desktop\note.txt
+-'  1  0  ~\Desktop\note.txt
+-'  66  14  ~\Desktop\Test.cpp
+-'  24  0  ~\Desktop\Test.cpp
+-'  76  30  ~\Vim\_vimrc
 -'  1  0  ~\Vim\_vimrc
--'  172  0  ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
+-'  55  0  ~\Vim\_vimrc
+-'  75  0  ~\Vim\_vimrc
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~\Desktop\note.py
+	"	2	0
+	^	19	5
+	.	19	4
+	+	13	6
+	+	4	0
+	+	1	2
+	+	10	33
+	+	21	0
+	+	21	0
+	+	19	5
+	+	20	0
+	+	19	4
+
+> ~\Desktop\-TaskList_1-
+	"	1	0
+	.	6	0
+	+	20	0
+	+	18	0
+	+	16	0
+	+	14	0
+	+	10	0
+	+	6	0
+
+> ~\Vim\_vimrc
+	"	76	30
+	^	76	31
+	.	76	30
+	+	77	24
+	+	77	0
+	+	77	0
+	+	66	8
+	+	68	16
+	+	73	0
+	+	77	0
+	+	77	0
+	+	77	0
+	+	75	28
+	+	77	24
+	+	77	0
+	+	76	30
+
+> D:\Program\Vim-Conf\_vimrc
+	"	47	9
+	^	64	0
+	.	63	0
+	+	63	0
+
+> ~\Vim\vim74\plugin\tasklist.vim
+	"	52	69
+
+> ~\Vim\vim74\doc\help.txt
+	"	1	0
+
+> ~\Vim\vimfiles\bundle\TaskList.vim\README
+	"	4	0
+
+> ~\Desktop\note.txt
+	"	11	0
+	^	11	0
+	.	12	0
+	+	10	31
+	+	12	0
+
+> ~\Desktop\Test.cpp
+	"	66	14
+	^	27	9
+	.	25	0
+	+	70	0
+	+	62	13
+	+	63	0
+	+	46	0
+	+	25	0
+	+	24	0
+	+	25	0
+	+	25	0
 
 > ~\.ssh\id_rsa.pub
 	"	1	0
@@ -152,6 +258,3 @@
 
 > ~\Vim\vimfiles\bundle\vim-kolor\colors\kolor.vim
 	"	172	0
-
-> ~\Vim\_vimrc
-	"	23	0
