@@ -72,3 +72,8 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
+"to conf plugin Gundo
+nnoremap <F5> :GundoToggle<CR>
+let g:gundo_right = 1
+let g:gundo_width = 70
+let g:gundo_preview_height = 35

@@ -72,5 +72,4 @@ map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
 
-map <leader>t <Plug>TaskList
-let g:pyflakes_use_quickfix = 0
+map <leader>g :GundoToggle<CR>
