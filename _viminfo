@@ -7,7 +7,23 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<0\>
+
 # Command Line History (newest to oldest):
+:q
+:wq
+:NERDTree
+:colorscheme desert
+:colorscheme matrix
+:clolorscheme matrix
+:colorscheme water
+:colorscheme red
+:colorscheme blue
+:colorscheme help
+:colorscheme
+:colorscheme -help
+:colorscheme kolor
 :TaskList
 :q
 :td
@@ -26,6 +42,7 @@
 :cw
 
 # Search String History (newest to oldest):
+? \<0\>
 
 # Expression History (newest to oldest):
 
@@ -34,7 +51,7 @@
 # Input Line History (newest to oldest):
 
 # 寄存器:
-""1	LINE	0
+"1	LINE	0
 	
 "2	LINE	0
 	
@@ -52,22 +69,29 @@
 	#FIXME!
 "9	LINE	0
 	filetype plugin indent on
-"-	CHAR	0
-	s
+""-	CHAR	0
+	:
 
 # 文件标记:
-'0  2  0  ~\Desktop\note.py
-'1  19  0  ~\Desktop\note.py
-'2  76  30  ~\Vim\_vimrc
-'3  47  9  D:\Program\Vim-Conf\_vimrc
-'4  75  0  ~\Vim\_vimrc
-'5  74  0  ~\Vim\_vimrc
-'6  52  69  ~\Vim\vim74\plugin\tasklist.vim
-'7  77  0  ~\Vim\_vimrc
-'8  77  28  ~\Vim\_vimrc
-'9  15  5  ~\Desktop\note.py
+'0  7  8  D:\Program Files (x86)\Vim\vim74\NERD_tree_1
+'1  4  0  D:\Program Files (x86)\Vim\NERD_tree_1
+'2  2  0  ~\Desktop\note.py
+'3  19  0  ~\Desktop\note.py
+'4  76  30  ~\Vim\_vimrc
+'5  47  9  D:\Program\Vim-Conf\_vimrc
+'6  75  0  ~\Vim\_vimrc
+'7  74  0  ~\Vim\_vimrc
+'8  52  69  ~\Vim\vim74\plugin\tasklist.vim
+'9  77  0  ~\Vim\_vimrc
 
 # 跳转列表 (从新到旧):
+-'  7  8  D:\Program Files (x86)\Vim\vim74\NERD_tree_1
+-'  12  0  D:\Program Files (x86)\Vim\vim74\NERD_tree_1
+-'  1  6  D:\Program Files (x86)\Vim\vim74\NERD_tree_1
+-'  4  0  D:\Program Files (x86)\Vim\NERD_tree_1
+-'  12  0  D:\Program Files (x86)\Vim\NERD_tree_1
+-'  1  0  D:\Program Files (x86)\Vim\NERD_tree_1
+-'  1  0  D:\Program Files (x86)\Vim\Test.txt
 -'  2  0  ~\Desktop\note.py
 -'  1  0  ~\Desktop\note.py
 -'  19  4  ~\Desktop\note.py
@@ -156,12 +180,49 @@
 -'  1  0  ~\Desktop\note.txt
 -'  66  14  ~\Desktop\Test.cpp
 -'  24  0  ~\Desktop\Test.cpp
--'  76  30  ~\Vim\_vimrc
--'  1  0  ~\Vim\_vimrc
--'  55  0  ~\Vim\_vimrc
--'  75  0  ~\Vim\_vimrc
 
 # 文件内的标记历史记录 (从新到旧):
+
+> D:\Program Files (x86)\Vim\vim74\__Gundo_Preview__
+	"	3	0
+	.	1	0
+	+	1	0
+
+> D:\Program Files (x86)\Vim\vim74\__Gundo__
+	"	8	5
+	.	1	0
+	+	1	0
+
+> D:\Program Files (x86)\Vim\vim74\NERD_tree_1
+	"	7	8
+	.	1	0
+	+	1	0
+	+	1	0
+
+> D:\Program Files (x86)\Vim\vim74\bugreport.vim
+	"	65	15
+	^	62	0
+	.	62	0
+	+	62	0
+
+> D:\Program Files (x86)\Vim\_vimrc
+	"	42	17
+	^	42	18
+	.	42	17
+	+	42	17
+
+> D:\Program Files (x86)\Vim\vim74\NERD_tree_2
+	"	4	0
+	.	1	0
+	+	1	0
+
+> D:\Program Files (x86)\Vim\Test.txt
+	"	1	0
+
+> D:\Program Files (x86)\Vim\NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
 
 > ~\Desktop\note.py
 	"	2	0

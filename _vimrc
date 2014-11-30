@@ -39,7 +39,7 @@ set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\[POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 
 "Set Color Scheme and Font Options
-colorscheme kolor
+colorscheme desert
 set guifont=Consolas:h12
 
 "set line no, buffer, search, highlight, autoindent and more.
@@ -91,3 +91,7 @@ map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
+
+"to conf plugin-SuperTab
+ au FileType python set omnifunc=pythoncompelete#Complete
+ let g:SuperTabDefaultCompletionType = "context"
