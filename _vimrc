@@ -28,12 +28,6 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
-"Personal Settings
-"More to be added soon.
-execute pathogen#infect()
-filetype plugin indent on
-syntax on
-
 "Set the status line options. Make it show more information.
 set laststatus=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\[POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
@@ -61,16 +55,26 @@ set undolevels=1000
 
 "Personal Settings.
 "More to be added soon.
-execute pathogen#infect()
-filetype plugin indent on
-syntax on
-set foldmethod=indent
-set foldlevel=99
+set fileencoding=utf-8
+set fileencodings=utf-8,cp936,ucs-bom,big5
+set guifont=Courier\ New:h13
+set hlsearch
+":set list
+":set listchars=tab:>-
+set listchars=trail:$
+":set expandtab
 
 map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l
 map <c-h> <c-w>h
+
+"to conf plugin-pathogen
+execute pathogen#infect()
+filetype plugin indent on
+syntax on
+set foldmethod=indent
+set foldlevel=99
 
 "to conf plugin-Gundo
 nnoremap <F5> :GundoToggle<CR>
@@ -91,6 +95,7 @@ map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
+nnoremap <F3> :NERDTree<CR>
 
 "to conf plugin-SuperTab
  au FileType python set omnifunc=pythoncompelete#Complete
