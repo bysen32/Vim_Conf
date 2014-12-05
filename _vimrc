@@ -102,3 +102,7 @@ let g:SuperTabDefaultCompletionType = "context"
 
 "to conf plugin-pymode
 let g:pymode_lint_write = 0
+
+"to conf plugin-pydoc
+let g:pydoc_cmd = 'python -m pydoc'
+let g:pydoc_open_cmd = 'vsplit'
